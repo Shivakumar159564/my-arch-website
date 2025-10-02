@@ -1,0 +1,35 @@
+.project-detail {
+  padding: 40px 80px;
+}
+
+.project-detail h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.project-detail p {
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.project-images {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.project-images img {
+  max-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.downloads {
+  margin-top: 20px;
+}
+
+.downloads a {
+  margin: 8px;
+  display: inline-block;
+}
